@@ -15,8 +15,7 @@ public class Calculator {
 	public static int difference(int a, int b) {
 		return a-b;
 	}
-	
-	public static int add(int a, int b) {
-		return a+b+b+a+b+b+b+b+a;
+	public static int add(int a, int b, int c) {
+		return a+b+c;
 	}
 }
