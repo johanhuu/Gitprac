@@ -23,4 +23,9 @@ public class Calculator {
 	public static int division(int a, int b) {
 		return a/b;
 	}
+	
+	public static int concat(int a, int b) {
+		return Integer.parseInt(Integer.toString(a) + Integer.toString(b));
+	}
+	
 }
