@@ -1,7 +1,7 @@
 public class Branchtest {
 
 	public static String getMessage() {
-		return "Hello!";		
+		return "some random text goes here";		
 	}
 
 }
