@@ -26,10 +26,38 @@ public class Something {
 		depth--;
 	}
 	
+	public static int closestToZero(int[] numbers) {
+		
+		int closestNegative = Integer.MIN_VALUE;
+		int closestPositive = Integer.MAX_VALUE;
+		
+		for(int i=0; i<numbers.length; i++) {
+			if(numbers[i] < 0) {
+				if(numbers[i] > closestNegative) {
+					closestNegative = numbers[i];
+				}
+			}else if(numbers[i] >= 0){
+				if(numbers[i] < closestPositive) {
+					closestPositive = numbers[i];
+				}
+			}
+		}
+		
+		int number = 0;
+		if(closestPositive*-1 > closestNegative) {
+			number = closestPositive;
+		}else {
+			number = closestNegative;
+		}
+		return number;
+	}
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Something.listAllNames(new File("C:/Users/A548464/Desktop/img"));
-
+		
+		int[] values = {-50, 20, 10, -34, 7, 12, -2};
+		System.out.println(closestToZero(values));
 		
 	}
 }
