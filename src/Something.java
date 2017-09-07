@@ -29,5 +29,7 @@ public class Something {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Something.listAllNames(new File("C:/Users/A548464/Desktop/img"));
+
+		
 	}
 }
