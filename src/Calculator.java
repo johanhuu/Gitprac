@@ -8,12 +8,8 @@ public class Calculator {
 		return (int) Math.pow(a, b);
 	}
 	
-	public static int reverseDifference(int a, int b) {
-		return b-a;
-	}
-	
-	public static int concat(int a, int b) {
-		return Integer.parseInt(Integer.toString(a) + Integer.toString(b));
+	public static int difference(int a, int b) {
+		return a-b;
 	}
 	
 	public static int add(int a, int b, int c) {
@@ -22,6 +18,10 @@ public class Calculator {
 	
 	public static int division(int a, int b) {
 		return a/b;
+	}
+	
+	public static int concat(int a, int b) {
+		return Integer.parseInt(Integer.toString(a) + Integer.toString(b));
 	}
 	
 }
