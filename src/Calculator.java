@@ -8,8 +8,8 @@ public class Calculator {
 		return (int) Math.pow(a, b);
 	}
 	
-	public static int difference(int a, int b) {
-		return a-b;
+	public static int reverseDifference(int a, int b) {
+		return b-a;
 	}
 	
 	public static int concat(int a, int b) {
