@@ -8,10 +8,12 @@ public class CalculatorTest {
 		Assert.assertEquals(Calculator.difference(100, 13), 100-13);
 	}
 	
+	/*
 	@Test
 	public void multiplyTest() {
 		Assert.assertEquals(Calculator.multiply(5, 7), 5*7);
 	}
+	*/
 	
 	@Test
 	public void squareTest() {
