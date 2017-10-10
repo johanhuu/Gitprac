@@ -3,6 +3,7 @@ import org.testng.annotations.Test;
 
 public class CalculatorTest {
 
+	/*
 	@Test
 	public void differenceTest() {
 		Assert.assertEquals(Calculator.difference(100, 13), 100-13);
@@ -17,5 +18,6 @@ public class CalculatorTest {
 	public void squareTest() {
 		Assert.assertEquals(Calculator.square(5, 7), (int) Math.pow(5, 7));
 	}
+	*/
 	
 }
