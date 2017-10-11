@@ -8,6 +8,7 @@ public class Calculator {
 		return (int) Math.pow(a, b);
 	}
 	
+	//this method changed in the testing branch
 	public static int reverseDifference(int a, int b) {
 		return b-a;
 	}
